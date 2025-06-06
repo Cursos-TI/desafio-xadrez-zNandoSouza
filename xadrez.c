@@ -7,7 +7,7 @@
 int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-    int  torre, rainha, bispo;
+    int torre = 0, rainha = 0, bispo = 0, cavalo = 1;
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
          printf("==!!Movendo o Bispo!!==\n\n");
@@ -28,19 +28,32 @@ int main() {
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     printf("==!!Movendo a Rainha!!==\n\n");
+
     do{
             printf("Esquerda\n"); 
             rainha++;
         } while (rainha < 8);
     
+    
+    // Nível Aventureiro - Movimentação do Cavalo
+    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
+    // Um loop pode representar a movimentação horizontal e outro vertical.
+    printf("==!!Movendo o Cavalo!!==\n\n");
+        
+        while(cavalo--)
+        
+       {
+            for (int i = 0; i < 2; i++)
+            {
+                printf("Baixo\n");
+            }
+            printf("Esquerda\n");
+        }
         
 
 
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
-    
+
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.
