@@ -1,6 +1,6 @@
 #include <stdio.h>
 // Aluno: Fernando Souza de Araujo.
-// Desafio Nível Mestre de Xadrez - Movimentos Complexos e Recursividade
+// Desafio Nível Mestre - Xadrez - Movimentos Complexos e Recursividade
 
 // ------------------ TORRE (Recursiva) ------------------
 void moverTorreDireita(int casas) {
